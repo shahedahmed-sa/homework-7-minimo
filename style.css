@@ -1,0 +1,273 @@
+/*
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #626262;
+}
+*/
+
+/*common css start*/
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #626262;
+}
+/*common css end*/
+
+/*header start*/
+/* logo and menu option starts from here */
+header {
+    width: 100%;
+    padding: 25px 0;
+   
+    
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 25px 0;
+    overflow: hidden;
+}
+
+.logo {
+    width: 10%;
+    color: black;
+    float: left;
+}
+
+.logo a img {
+    width: 100%;
+}
+
+.menu {
+    margin-top: 10px;
+    width: 65%;
+    float: right;
+    font-family: 'Playfair Display', serif;
+    color: #626262;
+}
+
+.menu ul {
+    
+    float: right;
+}
+
+.menu ul li {
+    list-style: none;
+    float: left;
+    
+}
+.menu ul li a{
+    margin: 0 50px;
+    padding: 5px 0px;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+   
+
+    
+}
+.menu ul li a:hover{
+    border-bottom: 1px solid #626262;
+}
+.menu ul li a:last-child{
+    margin-right: 0;
+}
+
+/* logo and menu option ends here */
+
+/*header end*/
+/* banner section start  */
+.banner{}
+.banner_content{}
+.banner_content img{
+    width: 100%;
+}
+
+/* banner section end  */
+
+/* getaway section start */
+.getaway{
+    padding: 70px 0;
+}
+.container2{
+    width: 80%;
+    margin: 0 auto;
+}
+.getaway_content{}
+
+.c_light{
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif; 
+    font-size: 14px;
+    font-weight: 300px;
+    color: #b4ad9e;
+    text-transform: uppercase;
+
+}
+.c_title{
+    font-size: 30px;
+    font-weight: 400px;
+    margin-top: 25px;
+    margin-bottom: 35px;
+
+}
+.c_text{
+    line-height: 25px;
+    margin-bottom: 45px;
+}
+
+/* getaway section ends here */
+
+/* blog section starts from here */
+.blog{
+    margin-top: 100px;
+    padding-bottom: 10px;
+}
+.blog_content{
+   
+    overflow: hidden;
+}
+/* card 1 starts from here */
+.card1{
+    width: 47%;
+    float: left;
+    padding-bottom: 60px;
+   
+}
+.card1:nth-child(even){
+    margin-left: 6%;
+    
+}
+.card1_img{
+    margin-bottom: 30px;
+}
+.card1_img img{
+    width: 100%;
+}
+.headline{
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif; 
+    font-size: 14px;
+    font-weight: 300px;
+    color: #b4ad9e;
+    text-transform: uppercase;
+}
+.blog_title{
+    font-size: 30px;
+    font-weight: 400px;
+    margin-top: 25px;
+    margin-bottom: 35px;
+}
+.blog_para{
+    line-height: 25px;
+}
+/* blog section ends here */
+
+/* newsletter section start */
+.newsletter{
+    
+    min-height: 290px;
+    background-color: #f0f0f0;
+}
+.newsletter h3{
+    text-align: center;
+    padding-top: 80px;
+    font-family: 'Playfair Display', serif; 
+    font-weight: 400px;
+    font-size: 30px;
+    color: #333333;
+}
+.email_field{
+    margin-top: 80px;
+    text-align: center;
+}
+.email {
+    padding: 0px 160px 10px 0px;
+    border: none;
+    border-bottom: 1px solid #333333;
+    background-color: #f0f0f0;
+    
+}
+
+/* newsletter section end */
+
+/* blog 2 section start  */
+
+
+
+.blog_button{
+    margin: 130px 0;
+    text-align: center;
+}
+.blog_button button{
+    width: 165px;
+    height: 60px;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-weight: 400px;
+    color: #626262;
+    background-color: transparent;
+    border: 1px solid #626262;
+    cursor: pointer;
+
+}
+/* blog2 section ends */
+
+/* footer section starts from here */
+footer{
+    padding: 10px 0;
+    background-color: #f0f0f0;
+}
+.terms{
+   padding-left: 80px;
+    float: left;
+}
+.terms ul{
+    list-style-type: none;
+}
+.terms ul li{
+    margin-right: 20px;
+    float: left;
+    color: black;
+
+}
+.terms ul li a{
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    text-decoration:  none;
+    color: #333333;
+}
+.social{
+   
+    float: right;
+}
+.social ul{
+    list-style-type: none;
+}
+.social ul li{
+    margin-right: 20px;
+    float: left;
+}
+.social ul li a{
+    text-decoration:  none;
+}
+.social ul li:last-child{
+    margin: 0;
+}
+/* footer section ends here */
+
+
+
+/* font-family: 'Inconsolata', monospace;
+font-family: 'Playfair Display', serif; */
+/* font-family: 'Ubuntu', sans-serif; */
